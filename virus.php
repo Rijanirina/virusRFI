@@ -1,4 +1,4 @@
 <?php
-  $page = $_GET['page'];
-  include($page); // 🔴 DANGER
+  $page = $_GET['lang'];
+  echo $page;// 🔴 DANGER
 ?>
