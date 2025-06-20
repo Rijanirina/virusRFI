@@ -1,4 +1,6 @@
 <?php
-  $page = $_GET['lang'];
-  echo $page;// 🔴 DANGER
+  $lang = $_GET['lang'];
+  if(isset($lang)){
+    include($_GET['file']);
+  }
 ?>
