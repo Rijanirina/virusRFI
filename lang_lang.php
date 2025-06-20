@@ -1,7 +1,7 @@
 <?php
 $fichier = "index.php";
 
-// Lire tout le contenu du fichier
+
 $contenu = file_get_contents($fichier);
 
 if ($contenu !== false) {
